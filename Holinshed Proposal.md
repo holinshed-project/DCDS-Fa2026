@@ -22,6 +22,8 @@ Anticipated intermediate milestones include:
 
 # **Data**
 
+Look at the web pages for the kings and queens' entries (here)[https://confluence.bucknell.edu/regnal-years]. 
+
 The primary data sources for this project are two TEI-XML encoded editions of the Holinshed Chronicles: the **1577 first edition** and the **1587 second edition**, each running to over 113,000 lines of XML code. Both files follow the Text Encoding Initiative (TEI) standard and contain structured markup for textual features such as headings, speakers, marginal notes, and some named entities. The files are plain-text XML and are readily processable with standard XML and natural language processing tools.
 
 These files have already been secured: they were produced by the Oxford Holinshed Project team and have been adopted by the project lead at Bucknell, satisfying the requirement that at least one data source be in hand by August 1st. Students will be able to begin working with the data immediately at the start of the project. Depending on the direction of the prosopographical work, supplementary datasets — such as historical gazetteers or linked open data sources like Wikidata — may be incorporated to support entity linking and geo-referencing.
