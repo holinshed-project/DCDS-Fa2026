@@ -243,7 +243,9 @@ def run_extraction(xml_path: Path, names_csv_path: Path) -> Path:
         print(f"\n... and {len(results) - 10} more results")
 
     # Export results
-    output_file = SCRIPT_DIR / f"{xml_path.stem}_name_contexts.csv"
+    output_dir = SCRIPT_DIR / "output"
+    output_dir.mkdir(exist_ok=True)
+    output_file = output_dir / f"{xml_path.stem}_name_contexts.csv"
     export_to_csv(results, str(output_file))
 
     # Summary
